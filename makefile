@@ -1,5 +1,5 @@
 CC=g++
 all:
-	$(CC) KMeans.cpp -o KMeans -g
+	$(CC) KMeans.cpp -o KMeans -g -std=c++0x
 clear:
-	rm -f KMeans
+	rm -f KMeans output.txt
